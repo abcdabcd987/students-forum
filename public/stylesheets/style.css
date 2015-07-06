@@ -1,0 +1,46 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.button-xlarge {
+    font-size: 150% !important;
+}
+
+.button-warning {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(223, 117, 20);
+}
+
+.center {
+    text-align: center;
+}
+
+.center .inner-box {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center .inner-box.right {
+    text-align: left;
+    padding-left: 50px;
+}
+
+.center .inner-box.left {
+    text-align: right;
+    padding-right: 50px;
+}
+
+.choice-info {
+    font-size: 18px;
+}
+
+#box-soso {
+    margin-top: 20px;
+}

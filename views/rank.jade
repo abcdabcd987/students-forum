@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h1 Rank
+  table.pure-table.pure-table-bordered#rank-table
+    thead
+      tr
+        th #
+        th Speaker
+        th Title
+        th Rating
+    tbody
+      each s in speeches
+        tr
+          td=s.rank
+          td=s.speaker
+          td=s.title
+          td=s.rating
+
+  hr
+  a(href="/") Go Voting
